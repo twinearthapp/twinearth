@@ -17,7 +17,7 @@
 > → History?
 > Describe it and I'll add it to the interface.”
 
-###3. Ask a question
+### 3. Ask a question
 > “What do you want to ask the planet?
 > → Why was a temple built here? 
 > → How did people feel? 

@@ -1,6 +1,6 @@
 # twinearth
-Sanctum TwinEarth - where the digital sanctifies the real. On Solana.
-# 🌍 TwinEarth Sanctum — Where the Digital Sanctifies the Real
+
+# 🌍 TwinEarth Sanctum — Where the Digital Sanctifies the Real. On Solana.
 
 > “You are not a guest here. You are a part of the planet.”
 

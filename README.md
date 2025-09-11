@@ -33,7 +33,6 @@ This is a **sacred digital space** — where:
 ---
 
 ## 🚧 Currently in Development (Roadmap — 6 Months)
-## 🚧 Currently in Development (Roadmap — 6 Months)
 
 | Stage       | Status        |
 |-------------|---------------|

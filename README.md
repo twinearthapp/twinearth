@@ -89,7 +89,7 @@ Mention where it began — with a whisper, on Solana.
 
 ## 🌐 Sacred Links
 
-- 📜 **[White Paper v1.8 (Full)https://raw.githubusercontent.com/twinearthapp/twinearth/refs/heads/main/White%20Paper%20v1.0.md]** — Philosophy, tech, roadmap, budget
+- 📜 **[White Paper v1.0 (Full) https://raw.githubusercontent.com/twinearthapp/twinearth/refs/heads/main/White%20Paper%20v1.0.md]** — Philosophy, tech, roadmap, budget
 - 🐦 **[X / Twitter](https://x.com/twinearthapp?s=21)** — Updates, polls, community voice
 - 📱 **[Telegram](https://t.me/twinearthsolana)** — Challenges, artifact ideas, direct chat
 - 💬 **[Discord](https://discord.gg/tNKsRAvS)** — Deep discussions, feature voting, philosophy

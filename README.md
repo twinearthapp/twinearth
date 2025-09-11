@@ -75,6 +75,6 @@ Do what you want - just mention that it started here.
 
 ## 🌐 Holy Space
 
-- X: @TwinEarthApp 
+- X: [@TwinEarthApp] (https://x.com/twinearthapp?s=21) 
 - Telegram: [@twinearthsolana ](https://t.me/twinearthsolana)
 - Discord: [discord.gg/twinearth](https://discord.gg/tNKsRAvS)

@@ -93,7 +93,7 @@ Mention where it began — with a whisper, on Solana.
 - 🐦 **[X / Twitter](https://x.com/twinearthapp?s=21)** — Updates, polls, community voice
 - 📱 **[Telegram](https://t.me/twinearthsolana)** — Challenges, artifact ideas, direct chat
 - 💬 **[Discord](https://discord.gg/tNKsRAvS)** — Deep discussions, feature voting, philosophy
-- 💻 **[GitHub Issues](https://github.com/twinearthapp/twinearth/issues)** — Propose locations, report bugs, suggest rituals
+- 💻 **[GitHub Issues](https://github.com/twinearthapp/twinearth/issues)** — Propose locations, report bugs, suggest growth
 
 ---
 

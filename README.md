@@ -7,7 +7,6 @@ I am creating **TwinEarth**— a digital twin of Earth, where:
 - Running = traveling
 - NFT = footprint in the planet's memory
 - $EARTH = participation, not ownership
-
 * **Currently in development:**
 - White Paper v1.0 — done
 - MVP "Machu Picchu" - in progress 🚧

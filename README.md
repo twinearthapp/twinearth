@@ -36,7 +36,7 @@ This is a **sacred digital space** — where:
 
 | Stage       | Status        |
 |-------------|---------------|
-| ✍️ White Paper v1.8 | ✅ Done — [(https://github.com/twinearthapp/twinearth/blob/84bf41bb450822619d9193ee94d06a8f079fbeaf/TwinEarth%20White%20Paper%20v1.8.md#month-5)](./WHITEPAPER.md) |
+| ✍️ White Paper v1.8 | ✅ Done — [https://github.com/twinearthapp/twinearth/blob/main/TwinEarth%20White%20Paper%20v1.0.md](./WHITEPAPER.md) |
 | 🏗️ MVP: “Garden of Time” + “River of Memory” | 🚧 In Progress |
 | 💰 Solana Foundation Grant Application | 📄 Preparing |
 | 🌐 Public Launch (Web dApp) | 🎯 Target: Month 6 |
@@ -88,7 +88,7 @@ Mention where it began — with a whisper, on Solana.
 
 ## 🌐 Sacred Links
 
-- 📜 **[White Paper v1.8 (Full)](https://github.com/twinearthapp/twinearth/blob/84bf41bb450822619d9193ee94d06a8f079fbeaf/TwinEarth%20White%20Paper%20v1.8.md#month-5./WHITEPAPER.md)** — Philosophy, tech, roadmap, budget
+- 📜 **[White Paper v1.8 (Full)](https://github.com/twinearthapp/twinearth/blob/main/TwinEarth%20White%20Paper%20v1.0.md/WHITEPAPER.md)** — Philosophy, tech, roadmap, budget
 - 🐦 **[X / Twitter](https://x.com/twinearthapp?s=21)** — Updates, polls, community voice
 - 📱 **[Telegram](https://t.me/twinearthsolana)** — Challenges, artifact ideas, direct chat
 - 💬 **[Discord](https://discord.gg/tNKsRAvS)** — Deep discussions, feature voting, philosophy

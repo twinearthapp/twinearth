@@ -1,6 +1,6 @@
 # 🗺️ TwinEarth Sanctum Roadmap (6 months)
 
-## Phase 1: Birth of Sanctum (0–3 months)
+## Birth of Sanctum (0–3 months)
 - [+] Creation of X, Telegram, Discord 
 - [ ] Gathering feedback from the community 
 - [ ] Applying for a grant ($50K) 

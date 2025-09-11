@@ -58,7 +58,7 @@ Do what you want - just mention that it started here.
 # 🗺️ TwinEarth Sanctum Roadmap
 
 ## Phase 1: Birth of Sanctum (0–3 months)
-- [ ] Creation of X, Telegram, Discord 
+- [+] Creation of X, Telegram, Discord 
 - [ ] Gathering feedback from the community 
 - [ ] Applying for a grant ($50K) 
 - [ ] Development of the MVP (Machu Picchu)

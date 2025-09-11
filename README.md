@@ -70,7 +70,7 @@ Do what you want - just mention that it started here.
 ---
 
 ## 🌐 Holy Space
-
+- White Peper v1.0: https://github.com/twinearthapp/twinearth/blob/84bf41bb450822619d9193ee94d06a8f079fbeaf/TwinEarth%20White%20Paper%20v1.8.md#month-5
 - X: [@TwinEarthApp] (https://x.com/twinearthapp?s=21) 
 - Telegram: [@twinearthsolana ](https://t.me/twinearthsolana)
 - Discord: [[discord.gg/twinearth](https://discord.gg/tNKsRAvS)](https://discord.gg/tNKsRAvS)

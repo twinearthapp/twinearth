@@ -77,4 +77,4 @@ Do what you want - just mention that it started here.
 
 - X: @TwinEarthApp 
 - Telegram: [@twinearthsolana ](https://t.me/twinearthsolana)
-- Discord: discord.gg/twinearth
+- Discord: [discord.gg/twinearth](https://discord.gg/tNKsRAvS)

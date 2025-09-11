@@ -114,3 +114,4 @@ Mention where it began — with a whisper, on Solana.
 TwinEarth does not wait for owners.  
 It waits for those who are ready to be part — with a name, or without.”**
 
+🛡️ **Security first:** We use `.gitignore` to protect keys and keep the repo clean.

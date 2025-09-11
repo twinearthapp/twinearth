@@ -117,7 +117,7 @@ This is a **sacred digital space** — where:
 |-------------|---------------|
 | ✍️ White Paper v1.8 | ✅ Done — [Read Here](./WHITEPAPER.md) |
 | 🏗️ MVP: “Garden of Time” + “River of Memory” | 🚧 In Progress |
-| 💰 Solana Foundation Grant Application | 📄 Preparing — Submitting Soon |
+| 💰 Solana Foundation Grant Application | 📄 Preparing |
 | 🌐 Public Launch (Web dApp) | 🎯 Target: Month 6 |
 
 > **No VR. No treadmills. No complex setup.**  

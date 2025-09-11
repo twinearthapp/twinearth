@@ -1,4 +1,17 @@
-# twinearth
+## Hi, I'm Vitaly Pozderin— the creator of TwinEarth
+
+"We are not building a metaverse. We're getting the connection back."
+
+I am creating **TwinEarth**— a digital twin of Earth, where:
+- Time is controlled by you
+- Running = traveling
+- NFT = footprint in the planet's memory
+- $EARTH = participation, not ownership
+
+* **Currently in development:**
+- White Paper v1.0 — done
+- MVP "Machu Picchu" - in progress 🚧
+- Solana Grant Application - in preparation 📄
 
 # 🌍 TwinEarth Sanctum — Where the Digital Sanctifies the Real. On Solana.
 

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TwinEarth — Цифровой двойник Земли для развития</title>
+  <meta name="description" content="TwinEarth — цифровой двойник Земли, где физическое движение, обучение и культура объединяются для развития человека и планеты.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    body::-webkit-scrollbar { display: none; }
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    h1, h2, h3 {
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 5vw, 4.5rem);
+      margin-bottom: 1rem;
+      max-width: 800px;
+    }
+
+    h2 {
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      margin: 2rem 0 1rem;
+      color: #00FF88;
+    }
+
+    p {
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
+      color: rgba(255, 255, 255, 0.85);
+      max-width: 700px;
+      margin-bottom: 1.5rem;
+    }
+
+    .container {
+      padding: 0 5vw;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 1.5rem 5vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    nav a {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+      margin-left: 2rem;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover { color: #00FF88; }
+
+    /* Hero */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8rem 5vw 4rem;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, #00FF88 0%, transparent 70%);
+      opacity: 0.08;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+      animation: pulse 5s infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% { transform: translate(-50%, -50%) scale(1); }
+      100% { transform: translate(-50%, -50%) scale(1.05); }
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+    }
+
+    .tagline {
+      font-size: clamp(1.2rem, 3vw, 1.6rem);
+      color: #00FF88;
+      font-weight: 500;
+      margin: 1rem 0;
+    }
+
+    .cta {
+      background: #00FF88;
+      color: #000;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 1.5rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+    }
+
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 30px rgba(0, 255, 136, 0.5);
+    }
+
+    /* Sections */
+    .section {
+      padding: 8rem 0;
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .section.dark {
+      background: #111;
+    }
+
+    /* Stats */
+    .stats {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin: 2rem 0;
+    }
+
+    .stat-item {
+      text-align: center;
+      min-width: 120px;
+    }
+
+    .stat-item strong {
+      font-size: 2.5rem;
+      color: #00FF88;
+      display: block;
+    }
+
+    /* Roadmap */
+    .roadmap {
+      background: rgba(0, 255, 136, 0.05);
+      border: 1px solid rgba(0, 255, 136, 0.2);
+      border-radius: 16px;
+      padding: 2rem;
+      margin: 2rem 0;
+    }
+
+    .roadmap-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .roadmap-date {
+      min-width: 80px;
+      color: #00FF88;
+      font-weight: 600;
+    }
+
+    /* Footer */
+    footer {
+      padding: 4rem 5vw;
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    footer .links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 1.5rem 0;
+    }
+
+    footer a {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover { color: #00FF88; }
+
+    @media (max-width: 768px) {
+      .header { padding: 1rem 5vw; }
+      nav a { margin-left: 1rem; font-size: 0.9rem; }
+      .hero { padding: 6rem 5vw 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">TE</div>
+    <nav>
+      <a href="#what">Что</a>
+      <a href="#why">Зачем</a>
+      <a href="#how">Как</a>
+      <a href="#roadmap">Путь</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Цифровой двойник Земли для развития человека и планеты</h1>
+      <p class="tagline">Где физическое движение, обучение и культура объединяются в едином цифровом пространстве.</p>
+      <button class="cta">Поддержать проект →</button>
+    </div>
+  </section>
+
+  <!-- What -->
+  <section id="what" class="section">
+    <div class="container">
+      <h2>🌍 Что такое TwinEarth?</h2>
+      <p>
+        TwinEarth — это живой цифровой двойник Земли, построенный на Solana, где:
+      </p>
+      <div class="stats">
+        <div class="stat-item"><strong>⏱️</strong>Время управляется вами</div>
+        <div class="stat-item"><strong>🏃</strong>Бег = путешествие</div>
+        <div class="stat-item"><strong>👥</strong>Коллективные пути</div>
+        <div class="stat-item"><strong>🪙</strong>$EARTH + NFT</div>
+      </div>
+      <p>
+        Это не метавселенная для развлечений. Это среда для интегрального развития: физического, интеллектуального, культурного.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why -->
+  <section id="why" class="section dark">
+    <div class="container">
+      <h2>🚀 Зачем это нужно?</h2>
+      <p>
+        Сегодня люди разъединены с природой, а цифровые платформы эксплуатируют внимание, а не развивают потенциал.
+      </p>
+      <p>
+        TwinEarth решает это:
+      </p>
+      <ul style="text-align: left; margin-left: 2rem;">
+        <li>✅ Образование через погружение — география, культура, экология</li>
+        <li>✅ Физическое развитие — синхронизация бега и VR-путешествий</li>
+        <li>✅ Социальное развитие — совместные ритуалы движения с людьми по всему миру</li>
+        <li>✅ Экологичность — нулевые выбросы, цифровые путешествия</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- How -->
+  <section id="how" class="section">
+    <div class="container">
+      <h2>⚙️ Как это работает?</h2>
+      <p>
+        Технологический стек, созданный для масштаба, безопасности и доступности:
+      </p>
+      <div class="stats">
+        <div class="stat-item"><strong>SOL</strong>Solana</div>
+        <div class="stat-item"><strong>AR</strong>Arweave</div>
+        <div class="stat-item"><strong>3D</strong>Three.js</div>
+        <div class="stat-item"><strong>VR</strong>WebXR</div>
+      </div>
+      <p>
+        Подключите беговую дорожку → наденьте VR → выберите маршрут → бегите → развивайтесь → оставляйте NFT-след.
+      </p>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section id="roadmap" class="section dark">
+    <div class="container">
+      <h2>🗺️ Путь вперёд (6 месяцев)</h2>
+      <div class="roadmap">
+        <div class="roadmap-item">
+          <div class="roadmap-date">Месяц 1-2</div>
+          <div>Создание $EARTH токена, dApp, лендинга, White Paper</div>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-date">Месяц 3</div>
+          <div>MVP: "Сад Времени", первый маршрут, NFT-следы</div>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-date">Месяц 4</div>
+          <div>Интеграция с VR и беговыми дорожками</div>
+        </div>
+        <div class="roadmap-item">
+          <div class="roadmap-date">Месяц 6</div>
+          <div>Первый глобальный коллективный забег — "День Земли"</div>
+        </div>
+      </div>
+      <p>
+        <strong>Нам нужно $50 000</strong> на разработку, аудит и инфраструктуру.  
+        Все средства — через multisig с публичной отчётностью.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="logo">TE</div>
+    <p>© 2025 TwinEarth. Проект для развития человека и планеты.</p>
+    <div class="links">
+      <a href="mailto:team@twinearth.io">Команда</a>
+      <a href="#">White Paper</a>
+      <a href="#">Twitter</a>
+      <a href="#">GitHub</a>
+    </div>
+  </footer>
+
+  <!-- Scroll Animation -->
+  <script>
+    const sections = document.querySelectorAll('.section');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(section => observer.observe(section));
+  </script>
+
+</body>
+</html>

@@ -33,10 +33,11 @@ This is a **sacred digital space** — where:
 ---
 
 ## 🚧 Currently in Development (Roadmap — 6 Months)
+## 🚧 Currently in Development (Roadmap — 6 Months)
 
 | Stage       | Status        |
 |-------------|---------------|
-| ✍️ White Paper v1.8 | ✅ Done — (https://raw.githubusercontent.com/twinearthapp/twinearth/refs/heads/main/TwinEarth%20White%20Paper%20v1.0.md./WHITEPAPER.md) |
+| ✍️ White Paper v1.0 | ✅ Done — [https://raw.githubusercontent.com/twinearthapp/twinearth/refs/heads/main/TwinEarth White Paper v1.0.md](./WHITEPAPER.md) |
 | 🏗️ MVP: “Garden of Time” + “River of Memory” | 🚧 In Progress |
 | 💰 Solana Foundation Grant Application | 📄 Preparing |
 | 🌐 Public Launch (Web dApp) | 🎯 Target: Month 6 |

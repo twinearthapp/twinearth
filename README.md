@@ -73,3 +73,18 @@ Do what you want - just mention that it started here.
 - X: [@TwinEarthApp] (https://x.com/twinearthapp?s=21) 
 - Telegram: [@twinearthsolana ](https://t.me/twinearthsolana)
 - Discord: [[discord.gg/twinearth](https://discord.gg/tNKsRAvS)](https://discord.gg/tNKsRAvS)
+
+
+
+
+## 🚧 Currently in Development (Roadmap — 6 Months)
+
+| Stage       | Status        |
+|-------------|---------------|
+| ✍️ White Paper v1.8 | ✅ Done — [Read Here](./WHITEPAPER.md) |
+| 🏗️ MVP: “Garden of Time” + “River of Memory” | 🚧 In Progress |
+| 💰 Solana Foundation Grant Application | 📄 Preparing — Submitting Soon |
+| 🌐 Public Launch (Web dApp) | 🎯 Target: Month 6 |
+
+> **No VR. No treadmills. No complex setup.**  
+> Just a browser. Just you. Just Earth.

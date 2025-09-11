@@ -1,0 +1,115 @@
+# =========================
+# OS & System Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
+.nyc_output
+coverage/
+.cache/
+
+# =========================
+# Node.js / JavaScript
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn/
+package-lock.json
+yarn.lock
+dist/
+build/
+public/*.env.*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+next-env.d.ts
+
+# =========================
+# Solana / Anchor / Rust
+# =========================
+/target/
+**/*.rs.bk
+Cargo.lock
+.anchor/
+.idl/
+*.tar.gz
+id.json
+wallet.json
+keypair.json
+config.json
+secrets/
+*.pem
+*.key
+*.secret
+
+# =========================
+# React / Frontend
+# =========================
+/build
+/dist
+/public/build
+/public/dist
+*.log
+
+# =========================
+# Unity (Future VR Module)
+# =========================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.apk
+*.unitypackage
+/Assets/Scenes/
+/Assets/Textures/
+/Assets/Models/
+/Assets/StreamingAssets/
+
+# =========================
+# Arweave / IPFS / Storage
+# =========================
+.arweave/
+.ipfs/
+.cache/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.eslintrc.json
+.vercel/
+
+# =========================
+# Misc
+# =========================
+*.log
+*.sql
+*.sqlite
+.DS_Store
+feat: add .gitignore for Solana + React + future Unity

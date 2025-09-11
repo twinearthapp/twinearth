@@ -40,7 +40,7 @@ We collect **your desires**:
 
 ---
 
-## , How to participate
+## How to participate
 
 1. **In X** — answer questions, vote 
 2. **On Telegram** — offer artifacts, participate in challenges 
@@ -76,5 +76,5 @@ Do what you want - just mention that it started here.
 ## 🌐 Holy Space
 
 - X: @TwinEarthApp 
-- Telegram: t.me/twinearthapp 
+- Telegram: [@twinearthsolana ](https://t.me/twinearthsolana)
 - Discord: discord.gg/twinearth

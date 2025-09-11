@@ -1,4 +1,4 @@
-# 🌍 TwinEarth White Paper v1.8
+# 🌍 TwinEarth White Paper v1.0
 ## *A digital twin of Earth, where time belongs to the user, and the trace remains forever - with complete freedom of choice: through Google or completely anonymously*
 
 > **Slogan:**
